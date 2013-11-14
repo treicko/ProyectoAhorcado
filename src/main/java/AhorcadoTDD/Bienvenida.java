@@ -8,5 +8,16 @@ public class Bienvenida {
    {
 	  System.out.println(_BIENVENIDA); 
    }
+   
+   public boolean esEnter(char tecla)
+   {      
+	  boolean es=false;
+ 
+	    if (tecla==13)
+	    {
+	    	es=true;
+	    }
+	  return es;
+   }
 	
 }
