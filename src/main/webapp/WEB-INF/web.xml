@@ -1,7 +1,7 @@
 <web-app>
   <servlet>
 	<servlet-name>ahorcadoServlet</servlet-name>
-	<servlet-class>AhorcadoTDD.AhorcadoServlet</servlet-class>
+	<servlet-class>AhorcadoTDD.BienvenidaServlet</servlet-class>
   </servlet>
   <servlet-mapping>
 	<servlet-name>ahorcadoServlet</servlet-name>
